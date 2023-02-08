@@ -1,0 +1,24 @@
+{
+  "name": "webpack-stats-prettify-plugin",
+  "version": "0.0.1",
+  "description": "A plugin to beautify webpack stats output",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeMeridien/webpack-stats-prettify-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "stats",
+    "beautify"
+  ],
+  "author": "browserify@qq.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LeMeridien/webpack-stats-prettify-plugin/issues"
+  },
+  "homepage": "https://github.com/LeMeridien/webpack-stats-prettify-plugin#readme"
+}
