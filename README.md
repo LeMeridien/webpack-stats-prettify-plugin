@@ -14,7 +14,7 @@ A plugin to beautify webpack stats output
 
 ## Getting Started
 
-To begin, you'll need to install copy-webpack-plugin:
+To begin, you'll need to install webpack-stats-prettify-plugin:
 
 ```bash
 npm install webpack-stats-prettify-plugin --save-dev
