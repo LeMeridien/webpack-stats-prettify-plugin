@@ -30,9 +30,9 @@ Then add the plugin to your webpack config. For example:
 
 **webpack.config.js**
 
+```js
 const WebpackStatsPrettifyPlugin = require("webpack-stats-prettify-plugin");
 
-```js
 module.exports = {
   plugins: [new WebpackStatsPrettifyPlugin()],
   stats: "errors-warnings",
