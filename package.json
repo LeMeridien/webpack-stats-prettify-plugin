@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/LeMeridien/webpack-stats-prettify-plugin#readme",
   "dependencies": {
-    "chalk": "^5.2.0",
+    "chalk": "^4.1.2",
     "text-table": "^0.2.0"
   }
 }

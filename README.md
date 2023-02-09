@@ -2,6 +2,16 @@
 
 A plugin to beautify webpack stats output
 
+## Introduction
+
+**Webpack 5 Default Output:**
+
+![](https://github.com/LeMeridien/webpack-stats-prettify-plugin/blob/master/assets/before.png)
+
+**Use WebpackStatsPrettifyPlugin:**
+
+![](https://github.com/LeMeridien/webpack-stats-prettify-plugin/blob/master/assets/after.png)
+
 ## Getting Started
 
 To begin, you'll need to install copy-webpack-plugin:
@@ -25,6 +35,12 @@ const WebpackStatsPrettifyPlugin = require("webpack-stats-prettify-plugin");
 ```js
 module.exports = {
   plugins: [new WebpackStatsPrettifyPlugin()],
+  stats: "errors-warnings",
+  performance: {
+    maxEntrypointSize: 1500000,
+    maxAssetSize: 500000,
+    hints: "warning",
+  },
 };
 ```
 
